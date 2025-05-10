@@ -1,4 +1,4 @@
-### Manual Installation:
+## Manual Installation:
 - Install nodejs locally
 - Clone the repo
 - Install dependencies (npm install) 
