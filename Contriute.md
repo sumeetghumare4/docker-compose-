@@ -3,7 +3,7 @@
 - Clone the repo
 - Install dependencies (npm install) 
 - Start DB locally () 
- - docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres
+ - `docker run -e POSTGRES_PASSWORD=mysecretpassword -d -p 5432:5432 postgres`
  - Or go to the neon.tech and create a new database
 - Change the .env file to update your database credentials
 - run `npx prisma migrate`
