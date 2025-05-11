@@ -11,8 +11,17 @@ This project demonstrates how to set up a full-stack application using Docker Co
 - Prisma ORM for database interactions
 
 ## Project Structure
-
-docker-compose/ ├── Dockerfile # Node.js application container configuration ├── docker-compose.yml # Multi-container Docker application definition ├── package.json # Node.js dependencies and scripts ├── prisma/ # Prisma ORM configuration │ └── schema.prisma # Database schema definition └── src/ # Application source code └── index.ts # Main application entry point
+```
+.
+├── Dockerfile                        # Node.js application container configuration
+├── docker-compose.yml               # Multi-container Docker application definition
+├── package.json                     # Node.js dependencies and scripts
+├── prisma                           # Prisma ORM configuration
+│   └── schema.prisma                # Database schema definition
+├── src                              # Application source code
+│   └── index.ts                     # Main application entry point
+└── README.md                        # Project overview and documentation
+```
 
 ## Prerequisites
 
