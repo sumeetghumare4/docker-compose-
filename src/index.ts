@@ -1,10 +1,10 @@
 import express from "express";
-// import { PrismaClient } from './generated/prisma'
-// import { PrismaClient } from '@prisma/client'
 import { PrismaClient } from './generated/prisma'
 
 const app = express();
 const prismaClient = new PrismaClient();
+
+// Rest of your code...
 
 
 app.get("/", async (req, res) => {    
@@ -26,4 +26,4 @@ app.post("/", async (req, res) => {
     })
 })
 
-app.listen(300);
+app.listen(3000);
